@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#menu" class="w3-bar-item w3-button">VIDEO</a>
+    <a href="#gallery" class="w3-bar-item w3-button">GALLERY</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Model: Milo</span>
+  </div>
+  <div class=" w3-margin-right w3-display-bottomright ">
+    <span class="w3-text-white w3-hide-small " style="font-size:100px">Living the cat life</span>
+
+  </div>
+</header>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <div class="w3-row">
+      <div class="w3-col m6">
+        <p>Hello everyone! I'm Khadija Khalid, a junior majoring in Computer Science with a minor in Interactive Media. I absolutely love cats, particularly the campus cats. Thus, I've chosen to dedicate this website to them. I hope you enjoy seeing their serene faces as they nap, eat, and simply exist in their adorable presence. Feel free to navigate through the website and meet some of the cats I know!</p>
+      </div>
+      <div class="w3-col m6">
+        <img src="images/me.png" class="w3-circle w3-right" alt="Chef">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Video Container -->
+<div class="w3-container w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE VIDEO</h1>
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/1nRBkHqJmkmPvwDyC3326rAbkbP7Z9Nqc/preview" allow="autoplay" autoplay controls muted></iframe>
+    </div>
+  </div>
+</div>
+
+
+<!-- Grid Container -->
+<div class="w3-container w3-padding-64 w3-xlarge" id="gallery">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Gallery</h1>
+    <div class="w3-row">
+      <div class="w3-col m4">
+        <img src="images/milogrid.jpg" alt="Image 1">
+        <h3 class="w3-center" >Milo</h3>
+      </div>
+      <div class="w3-col m4">
+        <img src="images/ginger.jpg" alt="Image 2">
+        <h3 class="w3-center">Ginger</h3>
+      </div>
+      <div class="w3-col m4">
+        <img src="images/midori.jpg" alt="Image 3">
+        <h3 class="w3-center">Midori</h3>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col m4">
+        <img src="images/simba.jpg" alt="Image 4">
+        <h3 class="w3-center" >Simba</h3>
+      </div>
+      <div class="w3-col m4">
+        <img src="images/muffin.jpg" alt="Image 5">
+        <h3 class="w3-center">Muffin</h3>
+      </div>
+      <div class="w3-col m4">
+        <img src="images/megumi.jpg" alt="Image 6">
+        <h3 class="w3-center">Megumi</h3>
+      </div>
+      <div class="w3-col m4">
+        <img src="images/sasha.jpg" alt="Image 7">
+        <h3 class="w3-center">Sasha</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Form -->
+<div class="w3-container w3-padding-64 w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <form action="https://formspree.io/f/myyrwwkp" method="POST" id="my-form">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+    <div id="my-form-status"></div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+
+
+<script src="main.js"></script>
+
+
+
+</body>
+</html>

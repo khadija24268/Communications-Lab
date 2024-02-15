@@ -1,0 +1,81 @@
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Amatic SC", sans-serif; 
+    font-weight: 700;
+    color: #f9faf7;
+}
+
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/milo.jpg");
+  min-height: 90%;
+}
+
+.the-girl next door-regular {
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #f9faf7;
+    font-family: "The Girl Next Door";
+    font-weight: 700; 
+    font-size: 20px; 
+    line-height: 1.5}
+
+.w3-container {
+    background-color: #151414;
+    
+}
+
+.w3-col.m6 img:hover {
+    transform: scale(1.1) 
+}
+
+.w3-col.m6 img {
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin: auto 50px;
+    float: left;
+}
+
+.w3-col.m4 img {
+    width: 100%;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+#gallery h3 {
+    color: #f9faf7;
+    
+}
+
+.w3-col.m4 img:hover {
+    transform: scale(1.1);
+}
+
+.w3-container {
+    position: relative;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
